@@ -1,4 +1,3 @@
-
 score, score_p2 = 0, 0
 for rucksack in open("input/day3.txt", "r"):
 	common = ''.join(set(rucksack[:len(rucksack) // 2]).intersection(rucksack[len(rucksack) // 2:]))

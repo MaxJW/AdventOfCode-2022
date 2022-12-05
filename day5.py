@@ -19,5 +19,5 @@ def move(multi):
         print(element[0], end = '')
     print("\n")
 
-move(True)
 move(False)
+move(True)
