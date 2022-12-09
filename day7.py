@@ -20,4 +20,4 @@ for cmd in open('input/day7.txt').read().split('\n'):
 		for i in range(len(path)):
 			directories[path[i]] += size
 print(f"Part 1: {sum([size for size in directories.values() if size <= 100000])}")
-print(f"Part 1: {min([size for size in directories.values() if size >= 30000000 - (70000000 - directories['/'])])}")
+print(f"Part 2: {min([size for size in directories.values() if size >= 30000000 - (70000000 - directories['/'])])}")
